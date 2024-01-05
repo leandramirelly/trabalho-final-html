@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
+        <link rel = "stylesheet" href = "css/stylecarrinho.css">
+        <title>Meu Carrinho</title>
+</head>
+<body>
+    <main>
+        <nav class = "navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top" style="border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);">
+                <div class = "container">
+                <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0">
+                    <img src = "img/bolsa.png" alt = "site icon">
+                    <span class = "text-uppercase fw-lighter ms-2">Carrinho</span>
+                </a>
+            </div>
+        </nav>
+        <br><br><br><br><br><br>
+
+        <div class="content">
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Preço</th>
+                            <th>Quantidade</th>
+                            <th>Total</th>
+                            <th>-</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="img/img9.jpeg" alt="" style="width: 150px; height: 150px;" />
+                                    <div class="info">
+                                        <div class="name">Conjunto Laranja</div>
+                                        <div class="category">Conjuntos</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 60.00</td>
+                            <td>
+                                <div class="qty">
+                                    <button><i class="bx bx-minus"></i></button>
+                                    <span>2</span>
+                                    <button><i class="bx bx-plus"></i></button>
+                                </div>
+                            </td>
+                            <td>R$ 120.00</td>
+                            <td>
+                                <button class="remove"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="img/img13.jpeg" alt="" style="width: 150px; height: 150px;" />
+                                    <div class="info">
+                                        <div class="name">Conjunto Preto</div>
+                                        <div class="category">Conjuntos</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 55.00</td>
+                            <td>
+                                <div class="qty">
+                                    <button><i class="bx bx-minus"></i></button>
+                                    <span>1</span>
+                                    <button><i class="bx bx-plus"></i></button>
+                                </div>
+                            </td>
+                            <td>R$ 55.00</td>
+                            <td>
+                                <button class="remove"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="img/img15.jpeg" alt="" style="width: 150px; height: 150px;" />
+                                    <div class="info">
+                                        <div class="name">Conjunto Branco</div>
+                                        <div class="category">Ano Novo</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 90.00</td>
+                            <td>
+                                <div class="qty">
+                                    <button><i class="bx bx-minus"></i></button>
+                                    <span>1</span>
+                                    <button><i class="bx bx-plus"></i></button>
+                                </div>
+                            </td>
+                            <td>R$ 90.00</td>
+                            <td>
+                                <button class="remove"><i class="bx bx-x"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <aside>
+                <div class="box">
+                    <header>Resumo da compra</header>
+                    <div class="info">
+                        <div><span>Sub-total</span><span>R$ 265.00</span></div>
+                        <div><span>Frete</span><span>Gratuito</span></div>
+                        <div>
+                            <button>
+                                Adicionar cupom de desconto
+                                <i class="bx bx-right-arrow-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <footer>
+                        <span>Total</span>
+                        <span>R$ 265.00</span>
+                    </footer>
+                </div>
+                <form action="row g-7">
+                    <a href="pagamento.html" role="button"><button type="button" class="btn m-2 text-dark btn btn-outline-warning">Finalizar compra</button></a>
+                </form>
+            </aside>
+        </div>
+    </main>
+</body>
+</html>
